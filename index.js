@@ -3,7 +3,7 @@ const Manager = require("./lib/Manager");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
 const { writeFile } = require("./uitls/generate-site");
-const generatePage = require("./src/page-template");
+const generatePage = require("./src/Page-Template");
 let teamData = [];
 
 const addManager = () => {
